@@ -1,0 +1,48 @@
+name: Atualizar monitor
+
+# Roda quando os dados do mês são registrados em data/ (ou o código muda).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["data/**", "src/**", "tests/**", "nota/leitura.md", "requirements.txt", ".github/workflows/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-monitor
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Testes
+        run: python -m pytest -q tests
+
+      - name: Gerar gráficos e nota
+        run: python src/main.py
+
+      - name: Publicar resultados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output nota
+          if git diff --staged --quiet; then
+            echo "Sem novidades."
+          else
+            git commit -m "Atualiza monitor"
+            git pull --rebase
+            git push
+          fi

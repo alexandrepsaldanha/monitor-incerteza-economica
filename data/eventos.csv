@@ -1,0 +1,12 @@
+data,evento,tipo
+2002-10,Eleição presidencial,eleicao
+2006-10,Eleição presidencial,eleicao
+2008-09,Crise financeira global,choque
+2010-10,Eleição presidencial,eleicao
+2014-10,Eleição presidencial,eleicao
+2018-05,Greve dos caminhoneiros,choque
+2018-10,Eleição presidencial,eleicao
+2020-03,Pandemia de covid-19,choque
+2022-10,Eleição presidencial,eleicao
+2026-05,Câmara aprova PEC da 6x1,politica
+2026-10,Eleições e Senado aprova PEC da 6x1,eleicao
