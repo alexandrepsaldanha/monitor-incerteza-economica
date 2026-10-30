@@ -1,14 +1,14 @@
-# Monitor de incerteza econômica: IIE-Br de set/26
+# Monitor de incerteza econômica: IIE-Br de out/26
 
 *Leitura mensal do Indicador de Incerteza da Economia (FGV IBRE).*
 
 ## Destaques
 
-- **IIE-Br de set/26: 110,8 pontos** (−0,9 no mês), entre 1 e 2 desvios-padrão acima da média. Na média móvel de três meses, 110,6 pontos (−0,2).
-- **Mídia: 111,6 pontos** (0,0), contribuição de 0,0 ponto para a variação do índice.
-- **Expectativa: 103,2 pontos** (−3,7), contribuição de −0,8 ponto.
-- O componente que mais moveu o índice no mês foi **Expectativa**.
-- Nos últimos 12 meses, o IIE-Br variou entre 104,5 e 117,2 pontos. O nível atual supera 64% dos meses desde 2000.
+- **IIE-Br de out/26: 109,0 pontos** (−1,8 no mês), acima da média, a menos de 1 desvio-padrão. Na média móvel de três meses, 110,5 pontos (−0,1).
+- **Mídia: 108,8 pontos** (−2,8), contribuição de −2,4 ponto para a variação do índice.
+- **Expectativa: 106,1 pontos** (+2,9), contribuição de +0,6 ponto.
+- O componente que mais moveu o índice no mês foi **Mídia**.
+- Nos últimos 12 meses, o IIE-Br variou entre 104,5 e 117,2 pontos. O nível atual supera 60% dos meses desde 2000.
 
 ## Eventos recentes marcados
 
