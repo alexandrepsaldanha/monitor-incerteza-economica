@@ -43,6 +43,7 @@ Três cuidados:
 - **Incerteza não é pessimismo.** O indicador mede quanto se fala de incerteza e quanto as projeções divergem, não se as notícias são boas ou ruins.
 - **Um mês isolado diz pouco.** A Mídia é volátil. O IBRE também divulga a média móvel de três meses, que a nota acompanha.
 - **Coincidência não é causa.** Os eventos marcados nos gráficos mostram o que acontecia no período, e não o que causou cada movimento. Em 2026, eleições e a tramitação da PEC da escala 6×1 coincidem no tempo, o que impede atribuir variações a um só fator.
+- **A janela de coleta define o mês.** Como a coleta vai do dia 26 ao dia 25, um evento do fim do mês pode cair no mês seguinte. Em 2002, 2006, 2010, 2014, 2018 e 2022, o segundo turno foi entre 26 e 31 de outubro e entrou no índice de novembro. Em 2026, o segundo turno foi em 25 de outubro, o último dia da coleta: o índice de outubro capta os dois turnos, mas a repercussão do resultado só aparece em novembro.
 
 ## O que o monitor calcula
 

@@ -13,7 +13,7 @@
 ## Eventos recentes marcados
 
 - mai/26: Câmara aprova PEC da 6x1
-- out/26: Eleições e Senado aprova PEC da 6x1
+- out/26: 1º e 2º turnos; Senado aprova PEC da 6x1
 
 ![IIE-Br e componentes](../output/figuras/recente.png)
 
